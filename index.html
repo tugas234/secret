@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kartu semangat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Floating decorative bubbles - hanya visual -->
+    <div class="floating-bubble bubble1">🌸</div>
+    <div class="floating-bubble bubble2">🧸</div>
+    <div class="floating-bubble bubble3">🍭</div>
+    <div class="floating-bubble bubble4">✨</div>
+    <div class="floating-bubble bubble5">🐻‍❄️</div>
+    <div class="floating-bubble bubble6">🎀</div>
+
+    <div class="container">
+        <!-- COVER SUPER CUTE DENGAN BANYAK GAMBAR -->
+        <div class="cover">
+            <div class="cover-stickers">
+                <span>📚</span>
+                <span>✨</span>
+                <span>🖍️</span>
+                <span>🍎</span>
+                <span>🌸</span>
+                <span>🧁</span>
+                <span>🐻‍❄️</span>
+                <span>🎀</span>
+                <span>☁️</span>
+            </div>
+            
+            <h1>untuk mba zahra</h1>
+            
+            <div class="cover-sub">
+                <p>
+                    <span>🌟</span> 
+                    <span>SEMANGAT UJIAN MUNAKOSANYA</span> 
+                    <span>🌟</span>
+                </p>
+            </div>
+            
+            <div class="to-kakel">
+                🎀  mba zahra  🎀
+            </div>
+            
+            <div class="cover-bottom-stickers">
+                <span>📝</span>
+                <span>☕</span>
+                <span>🍪</span>
+                <span>🕯️</span>
+                <span>💖</span>
+                <span>🌈</span>
+                <span>🦊</span>
+                <span>🐱</span>
+            </div>
+        </div>
+
+        <!-- ISI PESAN-PESAN DENGAN GAMBAR SUPER CUTE -->
+        <div class="messages">
+
+            <!-- Pesan 1 dengan gambar lebih banyak -->
+            <div class="message-card">
+                <div class="message-header">
+                    <div class="message-emoji-big">
+                        🧸⭐
+                    </div>
+                    <h2>Hai mba zahra</h2>
+                </div>
+                <div class="message-content">
+                    <p>Semangat ya buat ujian kelulusannya mba pasti bisa melewatinya dengan lancar. Jangan lupa makan, istirahat, dan minum yang cukup yaa </p>
+                    <div class="message-stickers">
+                        <span>📌</span>
+                        <span>⭐</span>
+                        <span>🧸</span>
+                        <span>🍫</span>
+                        <span>🥛</span>
+                        <span>🍯</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pesan 2 -->
+            <div class="message-card">
+                <div class="message-header">
+                    <div class="message-emoji-big">
+                        💖🌈✨
+                    </div>
+                    <h2>You can do it, Kakel!</h2>
+                </div>
+                <div class="message-content">
+                    <p>Percaya diri aja, mba udah belajar keras. Aku yakin hasilnya bakal memuaskan. Doa yang terbaik selalu untuk mbanya ✨</p>
+                    <div class="message-stickers">
+                        <span>🌸</span>
+                        <span>🌟</span>
+                        <span>🦊</span>
+                        <span>🍬</span>
+                        <span>🍭</span>
+                        <span>🎈</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pesan 3 dengan gambar-gambar imut -->
+            <div class="message-card">
+                <div class="message-header">
+                    <div class="message-emoji-big">
+                        🍭🍬🍰
+                    </div>
+                    <h2>Semaaangaat mba</h2>
+                </div>
+                <div class="message-content">
+                    <p>Anggap aja ujian ini seperti permen, kadang keras di luar tapi manis di dalam. mba  pasti bisa ngejalaninnya dengan mudah :)</p>
+                    <div class="message-stickers">
+                        <span>🍭</span>
+                        <span>🍰</span>
+                        <span>🐼</span>
+                        <span>🎈</span>
+                        <span>🍦</span>
+                        <span>🧋</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SPECIAL MESSAGE DENGAN BANYAK GAMBAR -->
+            <div class="special-message">
+                <div class="special-illustration">
+                    <span>📖</span>
+                    <span>✏️</span>
+                    <span>❤️</span>
+                    <span>🌟</span>
+                    <span>🕊️</span>
+                </div>
+                <div class="special-text">
+                    mba adalah bintang yang paling terang, tinggal tunjukkin cahayanya lewat ujian nanti. semuanya bangga sama mba  apapun hasilnya 🌙”
+                    <small>~  ~</small>
+                </div>
+            </div>
+
+            <!-- FITUR BARU: Counter Gambar Cute -->
+            <div class="image-counter">
+                <div class="counter-number" id="imageCount">36</div>
+                <div class="counter-text">Gambar Cute di Website ini ✨</div>
+            </div>
+
+            <!-- FITUR BARU: Form untuk menambah gambar cute -->
+            <div class="add-image-section">
+                <div class="add-image-title">
+                    <span>➕</span> Tambah Gambar Cute Baru
+                </div>
+                <div class="input-group">
+                    <input type="text" class="emoji-input" id="newEmoji" placeholder="Masukkan emoji (contoh: 🐨, 🦄, 🐥, 🌺)" maxlength="10">
+                    <button class="add-button" onclick="addNewEmoji()">
+                        <span>✨</span> Tambah <span>✨</span>
+                    </button>
+                </div>
+                <div class="emoji-preview">
+                    <span class="preview-label">Preview:</span>
+                    <div class="preview-emojis" id="emojiPreview">
+                        <!-- Akan diisi JavaScript -->
+                    </div>
+                </div>
+                <p style="font-size: 1.2rem; color: #b25f7a; margin-top: 15px; padding-left: 10px;">
+                    💡 Bisa tambahin emoji lucu seperti 🐨 koala, 🦄 unicorn, 🐥 chick, atau lainnya!
+                </p>
+            </div>
+
+            <!-- GALLERY GAMBAR CUTE - Bisa ditambah -->
+            <div class="cute-gallery" id="cuteGallery">
+                <div class="gallery-item">🐻‍❄️</div>
+                <div class="gallery-item">🌸</div>
+                <div class="gallery-item">🍭</div>
+                <div class="gallery-item">📚</div>
+                <div class="gallery-item">✨</div>
+                <div class="gallery-item">🧸</div>
+                <div class="gallery-item">🐱</div>
+                <div class="gallery-item">🦊</div>
+                <div class="gallery-item">🍪</div>
+                <div class="gallery-item">☕</div>
+                <div class="gallery-item">🎀</div>
+                <div class="gallery-item">🌈</div>
+                <div class="gallery-item">🐼</div>
+                <div class="gallery-item">🍰</div>
+                <div class="gallery-item">🦋</div>
+                <div class="gallery-item">🌟</div>
+                <div class="gallery-item">🐨</div>
+                <div class="gallery-item">🦄</div>
+                <div class="gallery-item">🐥</div>
+                <div class="gallery-item">🌺</div>
+                <div class="gallery-item">🫧</div>
+                <div class="gallery-item">🍦</div>
+                <div class="gallery-item">🧋</div>
+                <div class="gallery-item">🎈</div>
+                <div class="gallery-item">🐶</div>
+                <div class="gallery-item">🐰</div>
+                <div class="gallery-item">🦝</div>
+                <div class="gallery-item">🐌</div>
+                <div class="gallery-item">🐝</div>
+                <div class="gallery-item">🐞</div>
+                <div class="gallery-item">🌿</div>
+                <div class="gallery-item">🍄</div>
+                <div class="gallery-item">🌼</div>
+                <div class="gallery-item">⭐</div>
+                <div class="gallery-item">☁️</div>
+                <div class="gallery-item">🌙</div>
+            </div>
+
+            <!-- Surprise Box Interaktif -->
+            <div class="surprise-box" onclick="showSurprise()">
+                <div class="surprise-emoji" id="surpriseEmoji">🎁</div>
+                <div class="surprise-text" id="surpriseText">
+                    Klik untuk kejutan ! ✨
+                </div>
+            </div>
+
+            <!-- Tombol Semangat -->
+            <div class="sweet-button" onclick="showEncouragement()">
+                <span>✨</span> Klik untuk semangat <span>✨</span>
+            </div>
+
+        </div>
+
+        <!-- Footer super cute -->
+        <div class="footer">
+            dari dhafin
+        </div>
+    </div>
+    <script>
+         // Array pesan semangat random
+        const encouragementMessages = [
+            "SEMANGAT MBA ZAHRA! 🌟 mba pasti bisa",
+            "mba itu hebat! 💖 Aku percaya mbanya",
+            "Jangan lupa senantiasai bahagia dan tersenyum 😊",
+            "Ujian cuma formalitas, yang penting mbanya sudah berusaha ",
+            "Pokoknya mban juara 🏆",
+            "Belajar yang rajin mba dan gapai cita cita mba🌸",
+            "Semangat mba semuanya ada di sisi mbanya untuk selalu ngasi semangat 💪",
+            "Good luck mba! Semoga dimudahkan semua ujiannya! 📝",
+            
+        ];
+
+        // Array kejutan dari gambar
+        const surpriseEmojis = ['🐻‍❄️', '🌸', '🍭', '🧸', '🦊', '🐱', '🐼', '🐨', '🦝', '🐥', '🦋', '🐞', '🍰', '🧋', '🎈', '✨', '🐶', '🐰', '🦄', '🌺'];
+        const surpriseTexts = [
+            "Semangat ujiannya yaa mba semuanya mendoainmbanya 💕",
+            "Jangan lupa senantiasa tersenyum ya mba 😊",
+            "Ujian? Easy peasy lemon squeezy! 🍋",
+            "mba itu hebat, jangan lupa itu! 🎀",
+            "semuanya bangga sama mbanya🥹",
+            "Cie yang mau lulus, keren banget! 🎓",
+            "Jadi inspirasi terus ya mba 🌈",
+
+        ];
+
+        // Fungsi untuk update counter gambar
+        function updateImageCounter() {
+            const galleryItems = document.querySelectorAll('.gallery-item').length;
+            document.getElementById('imageCount').textContent = galleryItems;
+        }
+
+        // Fungsi untuk menambah emoji baru
+        function addNewEmoji() {
+            const input = document.getElementById('newEmoji');
+            const newEmoji = input.value.trim();
+            
+            if (newEmoji === '') {
+                alert('🌸 Yuk masukkan emoji dulu!');
+                return;
+            }
+
+            // Cek apakah input mengandung emoji (sederhana)
+            const emojiRegex = /[\u{1F300}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
+            if (!emojiRegex.test(newEmoji)) {
+                alert('💕 Tolong masukkan emoji yang valid ya! Contoh: 🐨, 🦄, 🐥');
+                return;
+            }
+
+            // Tambah ke gallery
+            const gallery = document.getElementById('cuteGallery');
+            const newItem = document.createElement('div');
+            newItem.className = 'gallery-item';
+            newItem.textContent = newEmoji;
+            gallery.appendChild(newItem);
+
+            // Update preview
+            updatePreview(newEmoji);
+
+            // Clear input
+            input.value = '';
+
+            // Update counter
+            updateImageCounter();
+
+            // Kasih notifikasi
+            alert(`✨ Yeay Gambar ${newEmoji} berhasil ditambahkan!`);
+        }
+
+        // Fungsi untuk update preview
+        function updatePreview(emoji) {
+            const preview = document.getElementById('emojiPreview');
+            const previewSpan = document.createElement('span');
+            previewSpan.textContent = emoji;
+            preview.appendChild(previewSpan);
+
+            // Hapus preview setelah 3 detik
+            setTimeout(() => {
+                previewSpan.remove();
+            }, 3000);
+        }
+
+        // Fungsi show surprise
+        function showSurprise() {
+            const randomEmojiIndex = Math.floor(Math.random() * surpriseEmojis.length);
+            const randomTextIndex = Math.floor(Math.random() * surpriseTexts.length);
+            
+            document.getElementById('surpriseEmoji').textContent = surpriseEmojis[randomEmojiIndex];
+            document.getElementById('surpriseText').textContent = surpriseTexts[randomTextIndex];
+            
+            // Kasih alert
+            alert('🎁 Kejutan untuk mba zahra ' + surpriseEmojis[randomEmojiIndex] + ' ' + surpriseTexts[randomTextIndex]);
+        }
+
+        // Fungsi show encouragement
+        function showEncouragement() {
+            const randomIndex = Math.floor(Math.random() * encouragementMessages.length);
+            alert(encouragementMessages[randomIndex]);
+        }
+
+        // Inisialisasi counter saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            updateImageCounter();
+            
+            // Tambah event listener untuk input (preview realtime)
+            const input = document.getElementById('newEmoji');
+            input.addEventListener('input', function() {
+                // Preview di input itu sendiri
+                if (this.value.length > 0) {
+                    // Bisa ditambahkan fitur preview实时 kalau mau
+                }
+            });
+
+            // Enter key untuk submit
+            input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    addNewEmoji();
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>
